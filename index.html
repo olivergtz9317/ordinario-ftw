@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital LISTI | Inicio</title>
+    <link rel="stylesheet" href="css/general.css">
+    <script src="js/general.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="contenedor-nav" aria-label="Navegación principal">
+            <a class="logo" href="index.html">Biblioteca Digital LISTI</a>
+
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="html/catalogo.html">Catálogo</a></li>
+                <li><a href="html/autores.html">Autores</a></li>
+                <li><a href="html/favoritos.html">Favoritos</a></li>
+                <li><a href="html/estadisticas.html">Estadísticas</a></li>
+                <li><a href="html/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <section class="hero" aria-labelledby="tituloInicio">
+            <div class="hero-texto">
+                <h1 id="tituloInicio">Explora lecturas desde una biblioteca digital sencilla</h1>
+                <p>
+                    Este sitio reúne libros, autores, favoritos y estadísticas de lectura
+                    en una interfaz clara, accesible y organizada para estudiantes.
+                </p>
+
+                <div class="botonera">
+                    <a class="boton" href="html/catalogo.html">Ver catálogo</a>
+                    <a class="boton boton-secundario" href="html/contacto.html">Enviar sugerencia</a>
+                </div>
+            </div>
+
+            <aside class="hero-imagen" aria-label="Ilustración de biblioteca digital">
+                <div>
+                    <span aria-hidden="true">📚</span>
+                    <p>Libros, autores y lecturas recomendadas en un solo lugar.</p>
+                </div>
+            </aside>
+        </section>
+
+        <section class="seccion" aria-labelledby="tituloFunciones">
+            <h2 id="tituloFunciones">¿Qué contiene el sitio?</h2>
+
+            <div class="grid-tarjetas">
+                <article class="tarjeta">
+                    <h3>Catálogo</h3>
+                    <p>Consulta libros organizados por título, autor, género y disponibilidad.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Autores</h3>
+                    <p>Conoce información general de autores destacados dentro del catálogo.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Favoritos</h3>
+                    <p>Guarda libros de interés para revisarlos después desde la misma página.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion" aria-labelledby="tituloObjetivo">
+            <h2 id="tituloObjetivo">Objetivo del proyecto</h2>
+            <p>
+                El objetivo de esta biblioteca digital es aplicar tecnologías web básicas,
+                usando HTML semántico, CSS responsivo, JavaScript y datos organizados en XML.
+            </p>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>Biblioteca Digital LISTI</p>
+        <p>&copy; <span id="anioActual"></span> Proyecto de Fundamentos de Tecnologías Web</p>
+    </footer>
+</body>
+</html>

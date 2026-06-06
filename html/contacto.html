@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital LISTI | Contacto</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <script src="../js/general.js" defer></script>
+    <script src="../js/contacto.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="contenedor-nav" aria-label="Navegación principal">
+            <a class="logo" href="../index.html">Biblioteca Digital LISTI</a>
+
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <section class="seccion" aria-labelledby="tituloContacto">
+            <h1 id="tituloContacto">Contacto y sugerencias</h1>
+            <p>
+                Usa este formulario para enviar sugerencias de libros, comentarios o reportes
+                relacionados con la biblioteca digital.
+            </p>
+        </section>
+
+        <form class="formulario" id="formularioContacto">
+            <div class="campo">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            </div>
+
+            <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="tipoMensaje">Tipo de mensaje</label>
+                <select id="tipoMensaje" name="tipoMensaje" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="sugerencia">Sugerencia de libro</option>
+                    <option value="comentario">Comentario general</option>
+                    <option value="reporte">Reporte de error</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+
+            <button class="boton" type="submit">Enviar mensaje</button>
+
+            <p class="aviso" id="mensajeFormulario" hidden></p>
+        </form>
+    </main>
+
+    <footer class="pie">
+        <p>Biblioteca Digital LISTI</p>
+        <p>&copy; <span id="anioActual"></span> Proyecto de Fundamentos de Tecnologías Web</p>
+    </footer>
+</body>
+</html>

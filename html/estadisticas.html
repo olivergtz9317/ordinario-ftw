@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital LISTI | Estadísticas</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/estadisticas.css">
+    <script src="../js/general.js" defer></script>
+    <script src="../js/estadisticas.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="contenedor-nav" aria-label="Navegación principal">
+            <a class="logo" href="../index.html">Biblioteca Digital LISTI</a>
+
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <section class="seccion" aria-labelledby="tituloEstadisticas">
+            <h1 id="tituloEstadisticas">Estadísticas del catálogo</h1>
+            
+        </section>
+
+        <section class="grid-tarjetas" aria-label="Resumen estadístico">
+            <article class="tarjeta">
+                <h2>Total de libros</h2>
+                <p id="totalLibros">0</p>
+            </article>
+
+            <article class="tarjeta">
+                <h2>Géneros registrados</h2>
+                <p id="totalGeneros">0</p>
+            </article>
+
+            <article class="tarjeta">
+                <h2>Libros disponibles</h2>
+                <p id="totalDisponibles">0</p>
+            </article>
+        </section>
+
+        <section class="seccion" aria-labelledby="tituloTablaEstadisticas">
+            <h2 id="tituloTablaEstadisticas">Datos por género</h2>
+
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Género</th>
+                            <th>Cantidad de libros</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaEstadisticas">
+                        <tr>
+                            <td>Sin datos</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>Biblioteca Digital LISTI</p>
+        <p>&copy; <span id="anioActual"></span> Proyecto de Fundamentos de Tecnologías Web</p>
+    </footer>
+</body>
+</html>

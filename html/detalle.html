@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital LISTI | Detalle del libro</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/detalle.css">
+    <script src="../js/general.js" defer></script>
+    <script src="../js/detalle.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="contenedor-nav" aria-label="Navegación principal">
+            <a class="logo" href="../index.html">Biblioteca Digital LISTI</a>
+
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <article class="tarjeta" aria-labelledby="tituloDetalle">
+            <h1 id="tituloDetalle">Detalle del libro</h1>
+            <p>
+                Aquí se mostrará la información completa de un libro seleccionado desde el catálogo.
+            </p>
+
+            <h2>Información preliminar</h2>
+            <p><strong>Título:</strong> Selecciona un libro desde el catálogo</p>
+            <p><strong>Autor:</strong> Pendiente</p>
+            <p><strong>Género:</strong> Pendiente</p>
+            <p><strong>Descripción:</strong> Esta sección se actualizará con JavaScript.</p>
+
+            <div class="botonera">
+                <a class="boton" href="catalogo.html">Volver al catálogo</a>
+                <button class="boton boton-secundario" type="button">Agregar a favoritos</button>
+            </div>
+        </article>
+    </main>
+
+    <footer class="pie">
+        <p>Biblioteca Digital LISTI</p>
+        <p>&copy; <span id="anioActual"></span> Proyecto de Fundamentos de Tecnologías Web</p>
+    </footer>
+</body>
+</html>
