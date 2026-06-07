@@ -1,0 +1,63 @@
+.detalle-libro {
+    display: grid;
+    gap: 16px;
+}
+
+.detalle-encabezado {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--borde-suave);
+    padding-bottom: 18px;
+}
+
+.detalle-encabezado h2 {
+    margin: 0;
+    color: var(--color-principal);
+}
+
+.etiqueta-genero {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background-color: #eef6ff;
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+.detalle-datos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.dato-libro {
+    background-color: var(--color-fondo);
+    border: 1px solid var(--borde-suave);
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.dato-libro strong {
+    display: block;
+    color: var(--color-principal);
+    margin-bottom: 4px;
+}
+
+.descripcion-libro {
+    background-color: #ffffff;
+    border-left: 5px solid var(--color-acento);
+    padding: 16px;
+    border-radius: 12px;
+}
+
+@media (max-width: 650px) {
+    .detalle-encabezado {
+        flex-direction: column;
+    }
+
+    .detalle-datos {
+        grid-template-columns: 1fr;
+    }
+}

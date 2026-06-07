@@ -26,22 +26,15 @@
     </header>
 
     <main class="contenido-principal">
-        <article class="tarjeta" aria-labelledby="tituloDetalle">
+        <section class="seccion" aria-labelledby="tituloDetalle">
             <h1 id="tituloDetalle">Detalle del libro</h1>
             <p>
-                Aquí se mostrará la información completa de un libro seleccionado desde el catálogo.
+                Consulta la información completa del libro seleccionado desde el catálogo.
             </p>
+        </section>
 
-            <h2>Información preliminar</h2>
-            <p><strong>Título:</strong> Selecciona un libro desde el catálogo</p>
-            <p><strong>Autor:</strong> Pendiente</p>
-            <p><strong>Género:</strong> Pendiente</p>
-            <p><strong>Descripción:</strong> Esta sección se actualizará con JavaScript.</p>
-
-            <div class="botonera">
-                <a class="boton" href="catalogo.html">Volver al catálogo</a>
-                <button class="boton boton-secundario" type="button">Agregar a favoritos</button>
-            </div>
+        <article class="detalle-libro tarjeta" id="contenedorDetalle" aria-live="polite">
+            <p class="aviso">Cargando información del libro...</p>
         </article>
     </main>
 

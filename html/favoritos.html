@@ -28,8 +28,19 @@
     <main class="contenido-principal">
         <section class="seccion" aria-labelledby="tituloFavoritos">
             <h1 id="tituloFavoritos">Mis favoritos</h1>
-            
+            <p>
+                Aquí aparecen los libros que guardaste como favoritos desde el catálogo o la página de detalle.
+            </p>
+
+            <div class="botonera">
+                <a class="boton" href="catalogo.html">Buscar más libros</a>
+                <button class="boton boton-secundario" type="button" id="btnLimpiarFavoritos">
+                    Limpiar favoritos
+                </button>
+            </div>
         </section>
+
+        <p class="aviso" id="mensajeFavoritos">Cargando favoritos...</p>
 
         <section class="grid-tarjetas" id="contenedorFavoritos" aria-label="Libros favoritos">
         </section>
