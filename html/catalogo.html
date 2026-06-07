@@ -28,12 +28,47 @@
     <main class="contenido-principal">
         <section class="seccion" aria-labelledby="tituloCatalogo">
             <h1 id="tituloCatalogo">Catálogo de libros</h1>
-           
-            
+            <p>
+                Consulta los libros disponibles en la biblioteca digital. Puedes buscar por título,
+                autor, género o estado del libro.
+            </p>
         </section>
 
-        <section class="seccion" aria-labelledby="tituloTabla">
-            <h2 id="tituloTabla">Vista preliminar del catálogo</h2>
+        <section class="seccion filtros-catalogo" aria-labelledby="tituloFiltros">
+            <h2 id="tituloFiltros">Filtros de búsqueda</h2>
+
+            <form class="formulario-filtros" id="formularioFiltros">
+                <div class="campo">
+                    <label for="busqueda">Buscar por título o autor</label>
+                    <input type="search" id="busqueda" name="busqueda" placeholder="Ejemplo: HTML, Ana Torres">
+                </div>
+
+                <div class="campo">
+                    <label for="filtroGenero">Género</label>
+                    <select id="filtroGenero" name="filtroGenero">
+                        <option value="">Todos los géneros</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="filtroEstado">Estado</label>
+                    <select id="filtroEstado" name="filtroEstado">
+                        <option value="">Todos los estados</option>
+                        <option value="Disponible">Disponible</option>
+                        <option value="Prestado">Prestado</option>
+                    </select>
+                </div>
+
+                <button class="boton" type="button" id="btnLimpiar">Limpiar filtros</button>
+            </form>
+        </section>
+
+        <section class="seccion" aria-labelledby="tituloResultados">
+            <h2 id="tituloResultados">Resultados</h2>
+
+            <p class="aviso" id="mensajeResultados">
+                Cargando libros del catálogo...
+            </p>
 
             <div class="tabla-contenedor">
                 <table>
@@ -42,17 +77,12 @@
                             <th>Título</th>
                             <th>Autor</th>
                             <th>Género</th>
+                            <th>Año</th>
                             <th>Estado</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tbody id="tablaLibros">
-                        <tr>
-                            <td>Ejemplo de libro</td>
-                            <td>Autor ejemplo</td>
-                            <td>Tecnología</td>
-                            <td>Disponible</td>
-                        </tr>
-                    </tbody>
+                    <tbody id="tablaLibros"></tbody>
                 </table>
             </div>
         </section>

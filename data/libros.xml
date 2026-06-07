@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro id="1">
+        <titulo>Fundamentos de programación</titulo>
+        <autor>Ana Torres</autor>
+        <genero>Tecnología</genero>
+        <anio>2021</anio>
+        <estado>Disponible</estado>
+        <paginas>320</paginas>
+        <descripcion>Libro introductorio para comprender lógica, algoritmos y estructuras básicas de programación.</descripcion>
+    </libro>
+
+    <libro id="2">
+        <titulo>Diseño web moderno</titulo>
+        <autor>Carlos Méndez</autor>
+        <genero>Diseño Web</genero>
+        <anio>2022</anio>
+        <estado>Disponible</estado>
+        <paginas>280</paginas>
+        <descripcion>Texto enfocado en la creación de sitios web claros, responsivos y accesibles.</descripcion>
+    </libro>
+
+    <libro id="3">
+        <titulo>Introducción a bases de datos</titulo>
+        <autor>María Salazar</autor>
+        <genero>Bases de Datos</genero>
+        <anio>2020</anio>
+        <estado>Prestado</estado>
+        <paginas>410</paginas>
+        <descripcion>Explica modelos de datos, consultas, tablas, relaciones y fundamentos de SQL.</descripcion>
+    </libro>
+
+    <libro id="4">
+        <titulo>Redes de computadoras</titulo>
+        <autor>Jorge Castillo</autor>
+        <genero>Redes</genero>
+        <anio>2019</anio>
+        <estado>Disponible</estado>
+        <paginas>360</paginas>
+        <descripcion>Material básico sobre protocolos, direccionamiento, servicios de red y comunicación entre equipos.</descripcion>
+    </libro>
+
+    <libro id="5">
+        <titulo>Accesibilidad en la web</titulo>
+        <autor>Lucía Herrera</autor>
+        <genero>Diseño Web</genero>
+        <anio>2023</anio>
+        <estado>Disponible</estado>
+        <paginas>210</paginas>
+        <descripcion>Guía para crear sitios más fáciles de usar, con etiquetas claras y navegación accesible.</descripcion>
+    </libro>
+
+    <libro id="6">
+        <titulo>Seguridad informática esencial</titulo>
+        <autor>Roberto Díaz</autor>
+        <genero>Seguridad</genero>
+        <anio>2021</anio>
+        <estado>Prestado</estado>
+        <paginas>295</paginas>
+        <descripcion>Presenta conceptos iniciales sobre protección de datos, contraseñas, riesgos y buenas prácticas.</descripcion>
+    </libro>
+
+    <libro id="7">
+        <titulo>Algoritmos para estudiantes</titulo>
+        <autor>Ana Torres</autor>
+        <genero>Tecnología</genero>
+        <anio>2024</anio>
+        <estado>Disponible</estado>
+        <paginas>250</paginas>
+        <descripcion>Libro práctico con ejercicios de algoritmos, diagramas de flujo y resolución de problemas.</descripcion>
+    </libro>
+
+    <libro id="8">
+        <titulo>HTML y CSS desde cero</titulo>
+        <autor>Elena Ramírez</autor>
+        <genero>Diseño Web</genero>
+        <anio>2022</anio>
+        <estado>Disponible</estado>
+        <paginas>190</paginas>
+        <descripcion>Material para aprender la estructura básica de páginas web y el uso de estilos CSS.</descripcion>
+    </libro>
+</biblioteca>

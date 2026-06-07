@@ -1,0 +1,73 @@
+.filtros-catalogo {
+    background-color: var(--color-tarjeta);
+    border: 1px solid var(--borde-suave);
+    border-radius: var(--radio);
+    padding: 24px;
+    box-shadow: var(--sombra);
+}
+
+.formulario-filtros {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 16px;
+    align-items: end;
+}
+
+.estado-disponible {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background-color: #e6f7ee;
+    color: #166534;
+    font-weight: bold;
+}
+
+.estado-prestado {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background-color: #fff0e6;
+    color: #9a3412;
+    font-weight: bold;
+}
+
+.acciones-tabla {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.boton-tabla {
+    border: none;
+    border-radius: 999px;
+    padding: 8px 12px;
+    background-color: var(--color-principal);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.boton-tabla:hover {
+    background-color: var(--color-secundario);
+}
+
+.boton-favorito {
+    background-color: var(--color-acento);
+    color: #1f2933;
+}
+
+@media (max-width: 900px) {
+    .formulario-filtros {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 580px) {
+    .formulario-filtros {
+        grid-template-columns: 1fr;
+    }
+
+    .acciones-tabla {
+        flex-direction: column;
+    }
+}
