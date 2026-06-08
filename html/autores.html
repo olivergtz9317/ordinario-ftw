@@ -29,28 +29,34 @@
         <section class="seccion" aria-labelledby="tituloAutores">
             <h1 id="tituloAutores">Autores destacados</h1>
             <p>
-                Esta sección mostrará autores relacionados con los libros del catálogo.
+                En esta sección se muestran los autores registrados en el catálogo digital.
+                La información se obtiene desde el archivo XML de libros.
             </p>
         </section>
 
-        <section class="grid-tarjetas" aria-label="Lista de autores">
-            <article class="tarjeta">
-                <h2>Autor ejemplo</h2>
-                <p>Especialidad: tecnología educativa.</p>
-                <p>Obras registradas: 1</p>
-            </article>
+        <section class="seccion filtros-autores" aria-labelledby="tituloFiltroAutores">
+            <h2 id="tituloFiltroAutores">Buscar autores</h2>
 
-            <article class="tarjeta">
-                <h2>Autora ejemplo</h2>
-                <p>Especialidad: literatura contemporánea.</p>
-                <p>Obras registradas: 1</p>
-            </article>
+            <form class="formulario-filtros-autores" id="formularioAutores">
+                <div class="campo">
+                    <label for="busquedaAutor">Buscar por autor o género</label>
+                    <input 
+                        type="search" 
+                        id="busquedaAutor" 
+                        name="busquedaAutor" 
+                        placeholder="Ejemplo: Ana Torres, Diseño Web"
+                    >
+                </div>
 
-            <article class="tarjeta">
-                <h2>Investigador ejemplo</h2>
-                <p>Especialidad: ciencia y sociedad.</p>
-                <p>Obras registradas: 1</p>
-            </article>
+                <button class="boton" type="button" id="btnLimpiarAutores">
+                    Limpiar búsqueda
+                </button>
+            </form>
+        </section>
+
+        <p class="aviso" id="mensajeAutores">Cargando autores...</p>
+
+        <section class="grid-tarjetas" id="contenedorAutores" aria-label="Lista de autores">
         </section>
     </main>
 
