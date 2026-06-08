@@ -1,0 +1,50 @@
+Prompt utilizados para el proyecto de Biblioteca LISTI
+
+1. Prompt para la idea general del sitio
+
+Genera una propuesta sencilla para un sitio web dedicado a una biblioteca digital. 
+El sitio debe tener un diseño simple, ordenado y fácil de navegar. 
+Debe incluir páginas como inicio, catálogo, detalle de libro, autores, favoritos, estadísticas y contacto.
+
+
+2. Prompt para la página de inicio
+
+Genera el diseño de una página de inicio para una biblioteca digital. 
+La página debe tener un encabezado con menú de navegación, una sección principal de bienvenida, 
+una breve descripción del objetivo del sitio y botones para ir al catálogo y al contacto.
+
+
+9. Prompt para el diseño CSS general
+
+Ayúdame a crear un archivo CSS general para una biblioteca digital
+El diseño debe ser limpio, responsivo y fácil de leer
+Debe incluir estilos para header, nav, main, footer, botones, tarjetas, tablas, formularios
+
+
+10. Prompt para CSS por página
+
+Ayúdame a crear archivos CSS separados para cada página de una biblioteca digital. Esto es un poco de lo que tengo echo
+
+
+11. Prompt para JavaScript general
+
+Genera un archivo JavaScript general para la biblioteca digital
+
+
+18. Prompt para el archivo XML de libros
+
+Genera un archivo XML con datos de libros para la biblioteca digital 
+Cada libro debe tener id, título, autor, género, año, estado, número de páginas y descripción
+Los datos deben ser variados e incluir libros de tecnología, diseño web, bases de datos, redes y seguridad
+
+
+19. Prompt para el archivo XML de usuarios
+
+Genera un archivo XML sencillo de usuarios válidos para una biblioteca digital
+Cada usuario debe tener id, nombre, correo y tipo
+Este XML se usará para validar el correo escrito en el formulario de contacto.
+
+
+20. Prompt para revisar rutas del proyecto
+
+Revisa la estructura de carpetas y ayúdame a corregir las rutas de CSS, JavaScript, XML para que funcionen correctamente en GitHub Pages.
