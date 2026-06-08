@@ -79,4 +79,124 @@
         <paginas>190</paginas>
         <descripcion>Material para aprender la estructura básica de páginas web y el uso de estilos CSS.</descripcion>
     </libro>
+
+        <libro id="9">
+        <titulo>JavaScript práctico</titulo>
+        <autor>Daniel Fuentes</autor>
+        <genero>Programación Web</genero>
+        <anio>2023</anio>
+        <estado>Disponible</estado>
+        <paginas>260</paginas>
+        <descripcion>Guía práctica para aprender eventos, funciones, arreglos, objetos y manipulación del DOM con JavaScript.</descripcion>
+    </libro>
+
+    <libro id="10">
+        <titulo>Experiencia de usuario aplicada</titulo>
+        <autor>Paola Martínez</autor>
+        <genero>UX/UI</genero>
+        <anio>2022</anio>
+        <estado>Disponible</estado>
+        <paginas>230</paginas>
+        <descripcion>Texto introductorio sobre diseño centrado en el usuario, prototipos, pruebas de usabilidad y arquitectura de información.</descripcion>
+    </libro>
+
+    <libro id="11">
+        <titulo>Introducción a XML</titulo>
+        <autor>Ricardo Paredes</autor>
+        <genero>Tecnología</genero>
+        <anio>2020</anio>
+        <estado>Disponible</estado>
+        <paginas>180</paginas>
+        <descripcion>Explica la estructura de documentos XML, etiquetas, atributos, validación y uso de datos en aplicaciones web.</descripcion>
+    </libro>
+
+    <libro id="12">
+        <titulo>Programación orientada a objetos</titulo>
+        <autor>Ana Torres</autor>
+        <genero>Programación</genero>
+        <anio>2021</anio>
+        <estado>Prestado</estado>
+        <paginas>340</paginas>
+        <descripcion>Material para comprender clases, objetos, herencia, encapsulamiento y reutilización de código.</descripcion>
+    </libro>
+
+    <libro id="13">
+        <titulo>Fundamentos de ciberseguridad</titulo>
+        <autor>Roberto Díaz</autor>
+        <genero>Seguridad</genero>
+        <anio>2024</anio>
+        <estado>Disponible</estado>
+        <paginas>305</paginas>
+        <descripcion>Presenta conceptos básicos de seguridad digital, protección de cuentas, riesgos comunes y prevención de ataques.</descripcion>
+    </libro>
+
+    <libro id="14">
+        <titulo>Diseño responsivo con CSS</titulo>
+        <autor>Elena Ramírez</autor>
+        <genero>Diseño Web</genero>
+        <anio>2023</anio>
+        <estado>Disponible</estado>
+        <paginas>215</paginas>
+        <descripcion>Libro enfocado en media queries, diseño adaptable, unidades flexibles y buenas prácticas para sitios responsivos.</descripcion>
+    </libro>
+
+    <libro id="15">
+        <titulo>Sistemas operativos para principiantes</titulo>
+        <autor>Jorge Castillo</autor>
+        <genero>Sistemas Operativos</genero>
+        <anio>2019</anio>
+        <estado>Prestado</estado>
+        <paginas>390</paginas>
+        <descripcion>Explica procesos, memoria, archivos, permisos, servicios y conceptos básicos de administración de sistemas.</descripcion>
+    </libro>
+
+    <libro id="16">
+        <titulo>SQL básico para estudiantes</titulo>
+        <autor>María Salazar</autor>
+        <genero>Bases de Datos</genero>
+        <anio>2022</anio>
+        <estado>Disponible</estado>
+        <paginas>270</paginas>
+        <descripcion>Introducción al lenguaje SQL mediante consultas, filtros, relaciones, agrupaciones y operaciones sobre tablas.</descripcion>
+    </libro>
+
+    <libro id="17">
+        <titulo>Arquitectura de computadoras</titulo>
+        <autor>Héctor Luna</autor>
+        <genero>Hardware</genero>
+        <anio>2020</anio>
+        <estado>Disponible</estado>
+        <paginas>310</paginas>
+        <descripcion>Describe los componentes internos de una computadora, procesadores, memoria, buses y dispositivos de entrada y salida.</descripcion>
+    </libro>
+
+    <libro id="18">
+        <titulo>Aplicaciones web accesibles</titulo>
+        <autor>Lucía Herrera</autor>
+        <genero>Accesibilidad</genero>
+        <anio>2024</anio>
+        <estado>Disponible</estado>
+        <paginas>240</paginas>
+        <descripcion>Explica cómo mejorar la navegación, el contraste, los textos alternativos y el uso de formularios accesibles.</descripcion>
+    </libro>
+
+    <libro id="19">
+        <titulo>Git y GitHub para proyectos escolares</titulo>
+        <autor>Daniel Fuentes</autor>
+        <genero>Herramientas de Desarrollo</genero>
+        <anio>2021</anio>
+        <estado>Disponible</estado>
+        <paginas>160</paginas>
+        <descripcion>Guía sencilla para crear repositorios, realizar commits, trabajar con ramas y publicar proyectos en GitHub Pages.</descripcion>
+    </libro>
+
+    <libro id="20">
+        <titulo>Introducción a la inteligencia artificial</titulo>
+        <autor>Paola Martínez</autor>
+        <genero>Inteligencia Artificial</genero>
+        <anio>2024</anio>
+        <estado>Prestado</estado>
+        <paginas>330</paginas>
+        <descripcion>Presenta una visión general de aprendizaje automático, datos, modelos, automatización y aplicaciones actuales.</descripcion>
+    </libro>
 </biblioteca>
