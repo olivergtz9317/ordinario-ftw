@@ -1,0 +1,47 @@
+.formulario-contacto small {
+    color: var(--color-muted);
+}
+
+.grupo-opciones {
+    border: 1px solid var(--borde-suave);
+    border-radius: 12px;
+    padding: 16px;
+    display: grid;
+    gap: 10px;
+}
+
+.grupo-opciones legend {
+    font-weight: bold;
+    color: var(--color-principal);
+    padding: 0 6px;
+}
+
+.grupo-opciones label,
+.casilla {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.casilla {
+    font-weight: bold;
+}
+
+.campo-error input,
+.campo-error textarea,
+.campo-error select {
+    border-color: #a83f39;
+    outline-color: #a83f39;
+}
+
+.mensaje-error {
+    background-color: #ffecec;
+    border-color: #f3b0b0;
+    color: #8a1f1f;
+}
+
+.mensaje-exito {
+    background-color: #e6f7ee;
+    border-color: #a7d8b8;
+    color: #166534;
+}

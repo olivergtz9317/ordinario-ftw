@@ -28,28 +28,50 @@
     <main class="contenido-principal">
         <section class="seccion" aria-labelledby="tituloEstadisticas">
             <h1 id="tituloEstadisticas">Estadísticas del catálogo</h1>
-            
+            <p>
+                Esta página presenta un resumen de los libros registrados en la biblioteca digital.
+                Los datos se obtienen directamente desde el archivo XML.
+            </p>
         </section>
 
-        <section class="grid-tarjetas" aria-label="Resumen estadístico">
-            <article class="tarjeta">
+        <section class="grid-tarjetas estadisticas-resumen" aria-label="Resumen estadístico">
+            <article class="tarjeta tarjeta-estadistica">
                 <h2>Total de libros</h2>
                 <p id="totalLibros">0</p>
             </article>
 
-            <article class="tarjeta">
+            <article class="tarjeta tarjeta-estadistica">
                 <h2>Géneros registrados</h2>
                 <p id="totalGeneros">0</p>
             </article>
 
-            <article class="tarjeta">
+            <article class="tarjeta tarjeta-estadistica">
                 <h2>Libros disponibles</h2>
                 <p id="totalDisponibles">0</p>
             </article>
         </section>
 
+        <section class="seccion" aria-labelledby="tituloFiltroEstadisticas">
+            <h2 id="tituloFiltroEstadisticas">Filtrar estadísticas</h2>
+
+            <form class="formulario-estadisticas" id="formularioEstadisticas">
+                <div class="campo">
+                    <label for="filtroEstadisticaGenero">Selecciona un género</label>
+                    <select id="filtroEstadisticaGenero" name="filtroEstadisticaGenero">
+                        <option value="">Todos los géneros</option>
+                    </select>
+                </div>
+
+                <button class="boton" type="button" id="btnLimpiarEstadisticas">
+                    Limpiar filtro
+                </button>
+            </form>
+        </section>
+
+        <p class="aviso" id="mensajeEstadisticas">Cargando estadísticas...</p>
+
         <section class="seccion" aria-labelledby="tituloTablaEstadisticas">
-            <h2 id="tituloTablaEstadisticas">Datos por género</h2>
+            <h2 id="tituloTablaEstadisticas">Libros por género</h2>
 
             <div class="tabla-contenedor">
                 <table>
@@ -57,14 +79,27 @@
                         <tr>
                             <th>Género</th>
                             <th>Cantidad de libros</th>
+                            <th>Disponibles</th>
+                            <th>Prestados</th>
                         </tr>
                     </thead>
-                    <tbody id="tablaEstadisticas">
+                    <tbody id="tablaEstadisticas"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="seccion" aria-labelledby="tituloTablaAnio">
+            <h2 id="tituloTablaAnio">Libros por año</h2>
+
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
                         <tr>
-                            <td>Sin datos</td>
-                            <td>0</td>
+                            <th>Año</th>
+                            <th>Cantidad de libros</th>
                         </tr>
-                    </tbody>
+                    </thead>
+                    <tbody id="tablaAnios"></tbody>
                 </table>
             </div>
         </section>

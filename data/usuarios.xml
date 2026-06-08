@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario id="1">
+        <nombre>Oliver Gutierrez</nombre>
+        <correo>oliver@listi.edu.mx</correo>
+        <tipo>estudiante</tipo>
+    </usuario>
+
+    <usuario id="2">
+        <nombre>Monse Rojas</nombre>
+        <correo>monse@listi.edu.mx</correo>
+        <tipo>estudiante</tipo>
+    </usuario>
+
+    <usuario id="3">
+        <nombre>Docente FTW</nombre>
+        <correo>docente@listi.edu.mx</correo>
+        <tipo>docente</tipo>
+    </usuario>
+</usuarios>

@@ -32,17 +32,24 @@
                 Usa este formulario para enviar sugerencias de libros, comentarios o reportes
                 relacionados con la biblioteca digital.
             </p>
+
+            <p class="aviso">
+                Para la validación contra XML puedes probar con los correos:
+                oliver@listi.edu.mx, monse@listi.edu.mx o docente@listi.edu.mx.
+            </p>
         </section>
 
-        <form class="formulario" id="formularioContacto">
+        <form class="formulario formulario-contacto" id="formularioContacto">
             <div class="campo">
                 <label for="nombre">Nombre completo</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                <small>El nombre debe tener al menos 3 caracteres.</small>
             </div>
 
             <div class="campo">
-                <label for="correo">Correo electrónico</label>
-                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                <label for="correo">Correo registrado</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@listi.edu.mx" required>
+                <small>El correo debe existir en el archivo usuarios.xml.</small>
             </div>
 
             <div class="campo">
@@ -55,10 +62,36 @@
                 </select>
             </div>
 
+            <fieldset class="grupo-opciones">
+                <legend>Medio de respuesta preferido</legend>
+
+                <label>
+                    <input type="radio" name="medioRespuesta" value="correo" checked>
+                    Correo electrónico
+                </label>
+
+                <label>
+                    <input type="radio" name="medioRespuesta" value="sinRespuesta">
+                    No necesito respuesta
+                </label>
+            </fieldset>
+
+            <div class="campo">
+                <label for="prioridad">Nivel de prioridad</label>
+                <input type="range" id="prioridad" name="prioridad" min="1" max="5" value="3">
+                <small>Prioridad seleccionada: <span id="valorPrioridad">3</span></small>
+            </div>
+
             <div class="campo">
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+                <small>El mensaje debe tener al menos 10 caracteres.</small>
             </div>
+
+            <label class="casilla">
+                <input type="checkbox" id="confirmacion" name="confirmacion" required>
+                Confirmo que la información enviada es correcta.
+            </label>
 
             <button class="boton" type="submit">Enviar mensaje</button>
 
